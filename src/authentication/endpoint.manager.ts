@@ -21,7 +21,7 @@ export interface IEndpointConfiguration {
   baseUrl?: string;
 
   // URL segment for OAuth authorize endpoint.
-  // The final authorize url is constructed as (baseUrl + '/' + authorizeUrl).
+  // The final authorize url is constructed as (baseUrl + authorizeUrl).
   authorizeUrl?: string;
 
   // Registered OAuth redirect url.
